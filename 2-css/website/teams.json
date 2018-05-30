@@ -1,0 +1,28 @@
+{
+	"teams" : [
+		{
+			"name" : "Chute Preciso F.S.",
+			"owner" : {
+						"name": "Felipe Rodrigues de Melo",
+					    "rg": 33.333.333-5
+					  },
+			"wear" : [{"tshirt": "Vermelha",
+					  "shorts": "Preto",
+					  "stocking": "Preto"}],
+			"contact_email" : "Felipemelobdm@outlook.com",
+			"contact_phone" : "(11) 98772-5955",
+			"availability" : ["monday": ["19h00, "19h30", "20h00"],
+							  "tuesday": ["20h00","20h30"],
+							  "wednesday": ["19h00"],
+							  "thursday": ["19h00"],
+							  "friday": ["19h00"]],
+			"players" : [
+						 {
+							"name": "Felipe Rodrigues De Melo",
+							"rg": "36.604.597-0",
+							"ra": "18102281"
+						 }
+						]
+		}
+	]
+}
