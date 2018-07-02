@@ -2,12 +2,10 @@
     <head>
         <title>Webpage with Styles</title>
         
+        <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+        
         <style type="text/css" >
-            p {
-                color: gold;
-                font-size: 400%;
-            }
-            
+             
             h1 {
                 color: pink;
             }
@@ -36,6 +34,124 @@
                 color: green;
             }
             
+            
+            #square-red {
+                background-color: red;
+                border: 4px yellow solid;
+            }
+            
+            #square-green {
+                background-color: green;
+                border: 4px red dashed;
+            }
+            
+            #square-yellow {
+                background-color: yellow;
+                border: 4px green double;
+            }
+            
+            #square-blue {
+                background-color: blue;
+                border-radius: 50%;
+            }
+            .square {
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                float: left;
+            }
+                   
+            #text-div {
+                background-color: chocolate;
+                width: 300px;
+                height: 100px;
+                border-radius: 5%;
+                text-align: center;
+            }
+            .round-div {
+                float: left;
+            }
+            
+            p {
+                font-family: 'Galada', cursive;
+            }
+            
+            .bold {
+                font-weight: bold;
+            }
+            
+            .underlined {
+                text-decoration: underline;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            a:hover {
+                color: green;
+            }
+            
+            
+            
+            .card-body {
+                width: 400px;
+                height: 300px;
+                background-color: black;
+                float: left;
+                padding: 5px;
+                
+            }
+            
+            .card-image {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: aquamarine;
+                margin: 10px;
+            }
+            
+            .card-title {
+                text-align: left;
+                text-decoration: underline;
+                color: aliceblue;
+                float: left;
+            }
+            
+            .card-text {
+                text-align: justify;
+                color: azure;
+            }
+            
+            .food-main {
+                text-align: left;
+                color: azure;
+            }
+            
+            .food-cia {
+                text-align: left;
+                color: azure;
+            }
+            
+            .food-price {
+                text-align: right;
+                color: azure;
+                float: right;
+            }
+            
+            .div-title {
+                width: 100%;
+                float: left;
+            }
+            
+            .div-body {
+                float: left;
+                width: 100%;
+                margin: 0px;
+            }
+            
+            
+            
         </style>
         
     </head>
@@ -57,6 +173,64 @@
             <p id="pgreen"> Paragraph <span class="pred">Internal</span> CSS</p>
             <h1>h1 Internal CSS</h1>
         </div>
+        
+        
+        
+        <div id="square-red" class="square">
+        
+        </div>
+        
+        <div id="square-green" class="square">
+            
+        </div>
+        
+        <div id="square-yellow" class="square">
+            
+        </div>
+        
+        <div id="square-blue" class="square">
+            
+        </div>
+        
+        <div id="text-div" class="round-div">
+            <p class="bold">
+                Text for testing Fonts
+            </p>
+            
+            
+            <a>This is a Link</a>
+        </div>
+        
+        
+        <div class="card-body">
+            <div class="card-image">
+                
+            </div>    
+            
+             <div class="div-title">
+                <h2 class="card-title"> Mini Bife</h2>
+                 <p class="food-price">
+                    Preco: R$ 15,00
+                 </p>
+            </div> 
+            
+            <div class="div-body">
+                <p class="food-main">
+                    Principal: Arroz e Feijao
+                </p>
+            
+                <p class="food-cia">
+                    Acompanhamentos: Fritas e Ovo
+                </p>
+            </div>
+            
+            
+    
+        </div>
+        
+        
+        <a href="http://www.google.com" target="_blank"> Open Google in a new Tab</a>
+        
         
         
         
